@@ -1,11 +1,12 @@
 package com.kodilla.testing.weather.stub;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class WeatherForecast {
-    private final Temperatures temperatures;
+    private Temperatures temperatures;
 
     public WeatherForecast(Temperatures temperatures) {
         this.temperatures = temperatures;
